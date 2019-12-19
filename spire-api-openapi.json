@@ -1,0 +1,76 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Spire API",
+        "description": "TODO: Add Description",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsais.spire.com\/"
+    ],
+    "paths": {
+        "\/vessels": {
+            "get": {
+                "summary": "Find Vessels Arriving Between Date\/Time Window",
+                "description": "Returns all vessels with an ETA greater than the `arriving_after` and ETA less than the `arriving_before` parameter.\n\nQuery can also be used without the `arriving_before` parameter.",
+                "operationId": "VesselsGet10",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "arriving_after",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "arriving_before",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/vessels\/a5b738b4-faf0-4a7e-9a87-1c0ccfb123d2": {
+            "get": {
+                "summary": "Get Individual Vessel",
+                "description": "Returns individual ship details.",
+                "operationId": "VesselsA5b738b4Faf04a7e9a871c0ccfb123d2Get",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/messages": {
+            "get": {
+                "summary": "All Messages from Date\/Time Window",
+                "description": "Returns all messages with a timestamp greater than `received_after` and timestamp less than `received_before`.\nQuery can also be used without the `received_before` parameter.\nTimestamp must be within the past 7 days.",
+                "operationId": "MessagesGet4",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "received_after",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "received_before",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
