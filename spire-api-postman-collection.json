@@ -1,0 +1,126 @@
+{
+    "id": "63ca3c568864d8218b637dc2e421f2f1",
+    "name": "Spire API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "e51a273760dc9e04a17c36d8c835dce6",
+            "name": "Find Vessels Arriving Between Date\/Time Window",
+            "url": "httpsais.spire.com\/\/vessels",
+            "description": "Returns all vessels with an ETA greater than the `arriving_after` and ETA less than the `arriving_before` parameter.\n\nQuery can also be used without the `arriving_before` parameter.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "arriving_after",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "arriving_before",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "rawModeData": ""
+        },
+        {
+            "id": "b8cbc27a84df22d4cde2cf08e827bb0a",
+            "name": "Get Individual Vessel",
+            "url": "httpsais.spire.com\/\/vessels\/a5b738b4-faf0-4a7e-9a87-1c0ccfb123d2",
+            "description": "Returns individual ship details.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1fa0f30e5e21ac90672961844cc6f01",
+            "name": "All Messages from Date\/Time Window",
+            "url": "httpsais.spire.com\/\/messages",
+            "description": "Returns all messages with a timestamp greater than `received_after` and timestamp less than `received_before`.\nQuery can also be used without the `received_before` parameter.\nTimestamp must be within the past 7 days.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "fields",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "received_after",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "received_before",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "rawModeData": ""
+        }
+    ]
+}
