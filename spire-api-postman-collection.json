@@ -1,5 +1,5 @@
 {
-    "id": "63ca3c568864d8218b637dc2e421f2f1",
+    "id": "d2be3a89568b869f3790d45ee7777373",
     "name": "Spire API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "e51a273760dc9e04a17c36d8c835dce6",
+            "id": "a2bcec8028d93588fec673d277d95e68",
             "name": "Find Vessels Arriving Between Date\/Time Window",
             "url": "httpsais.spire.com\/\/vessels",
             "description": "Returns all vessels with an ETA greater than the `arriving_after` and ETA less than the `arriving_before` parameter.\n\nQuery can also be used without the `arriving_before` parameter.",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "collectionId": "d2be3a89568b869f3790d45ee7777373",
             "rawModeData": ""
         },
         {
-            "id": "b8cbc27a84df22d4cde2cf08e827bb0a",
+            "id": "a4a07197c9c76c063759fc44fda0c468",
             "name": "Get Individual Vessel",
             "url": "httpsais.spire.com\/\/vessels\/a5b738b4-faf0-4a7e-9a87-1c0ccfb123d2",
             "description": "Returns individual ship details.",
@@ -67,11 +67,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "collectionId": "d2be3a89568b869f3790d45ee7777373",
             "rawModeData": ""
         },
         {
-            "id": "f1fa0f30e5e21ac90672961844cc6f01",
+            "id": "59252350cdc20d2ea57561769b50bd67",
             "name": "All Messages from Date\/Time Window",
             "url": "httpsais.spire.com\/\/messages",
             "description": "Returns all messages with a timestamp greater than `received_after` and timestamp less than `received_before`.\nQuery can also be used without the `received_before` parameter.\nTimestamp must be within the past 7 days.",
@@ -119,7 +119,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "63ca3c568864d8218b637dc2e421f2f1",
+            "collectionId": "d2be3a89568b869f3790d45ee7777373",
             "rawModeData": ""
         }
     ]
