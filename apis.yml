@@ -1,0 +1,141 @@
+aid: spire-global
+name: Spire Global
+description: >-
+  Spire Global operates a constellation of more than 100 LEMUR nanosatellites
+  collecting maritime AIS, aviation ADS-B, GNSS-RO weather profiles, and RF
+  geolocation data, and offers Space Services for hosted payloads and managed
+  satellite missions. Its data products are exposed as developer-friendly
+  APIs: Spire Maritime 2.0 (now operated by Kpler) delivers vessel-tracking
+  AIS through a GraphQL endpoint; Spire Aviation publishes REST APIs and
+  real-time streams for flight metadata, live ADS-B tracking, historic
+  positions, and event feeds; Spire Weather and Climate provides RESTful
+  weather and ocean data APIs including 30 years of maritime weather history;
+  and Spire Space Services exposes a developer portal for managed satellite
+  operations. Spire's APIs are documented at product-specific subdomains and
+  authenticated with API keys.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Satellites
+  - Earth Observation
+  - AIS
+  - Maritime
+  - ADS-B
+  - Aviation
+  - Weather
+  - RF Geolocation
+  - GraphQL
+  - LEMUR
+  - GNSS-RO
+url: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis:
+  - aid: spire-global:maritime-graphql
+    name: Spire Maritime 2.0 API (GraphQL)
+    description: >-
+      Single GraphQL endpoint delivering Spire's satellite AIS maritime data -
+      vessel positions, voyages, port calls, and predicted ETAs - with
+      flexible querying for analytics and integration use cases. Now operated
+      under the Kpler maritime brand following the 2024 acquisition.
+    humanURL: https://documentation.spire.com/
+    baseURL: https://api.maritime.spire.com
+    tags:
+      - Maritime
+      - AIS
+      - GraphQL
+      - Vessels
+    properties:
+      - type: Documentation
+        url: https://documentation.spire.com/
+  - aid: spire-global:aviation
+    name: Spire Aviation API
+    description: >-
+      REST APIs and real-time event and tracking streams for global flight
+      data, including space-based ADS-B positions, flight metadata, historic
+      flights, and delayed tracking streams.
+    humanURL: https://aviation-docs.spire.com/
+    baseURL: https://api.aviation.spire.com
+    tags:
+      - Aviation
+      - ADS-B
+      - Flights
+      - Streaming
+    properties:
+      - type: Documentation
+        url: https://aviation-docs.spire.com/
+  - aid: spire-global:weather
+    name: Spire Weather and Climate API
+    description: >-
+      RESTful weather and climate APIs covering global numerical weather
+      prediction outputs, ocean currents, salinity, and 30 years of maritime
+      weather history.
+    humanURL: https://developers.wx.spire.com/
+    baseURL: https://api.wx.spire.com
+    tags:
+      - Weather
+      - Climate
+      - Ocean
+      - Forecast
+    properties:
+      - type: Documentation
+        url: https://developers.wx.spire.com/
+  - aid: spire-global:space-services
+    name: Spire Space Services Developer API
+    description: >-
+      Developer portal and APIs for Spire Space Services, exposing managed
+      satellite operations, hosted payloads, and on-orbit asset interactions.
+    humanURL: https://developers.spire.com/
+    baseURL: https://developers.spire.com/
+    tags:
+      - Space Services
+      - Hosted Payloads
+      - Satellites
+    properties:
+      - type: Documentation
+        url: https://developers.spire.com/
+  - aid: spire-global:rf-geolocation
+    name: Spire RF Geolocation
+    description: >-
+      Radio-frequency geolocation data products delivering detected emitter
+      positions for maritime domain awareness, security, and dark-vessel
+      detection use cases. Delivered through enterprise data feeds.
+    humanURL: https://spire.com/space-services/rf-geolocation/
+    baseURL: https://spire.com/space-services/rf-geolocation/
+    tags:
+      - RF
+      - Geolocation
+      - Maritime Awareness
+      - Security
+    properties:
+      - type: Documentation
+        url: https://spire.com/space-services/rf-geolocation/
+common:
+  - type: Website
+    url: https://spire.com/
+  - type: DeveloperResources
+    url: https://spire.com/developers/
+  - type: MaritimeDocs
+    url: https://documentation.spire.com/
+  - type: AviationDocs
+    url: https://aviation-docs.spire.com/
+  - type: WeatherDocs
+    url: https://developers.wx.spire.com/
+  - type: SpaceServicesDocs
+    url: https://developers.spire.com/
+  - type: Products
+    url: https://www.spire.com/products/
+  - type: Newsroom
+    url: https://spire.com/newsroom/
+  - type: GitHubOrganization
+    url: https://github.com/spire-global
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/spire-global/
+  - type: X
+    url: https://x.com/SpireGlobal
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
