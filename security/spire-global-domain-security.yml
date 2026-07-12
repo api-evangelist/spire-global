@@ -1,0 +1,23 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: spire.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 14 00:11:44 2026 GMT
+  hsts: false
+- host: documentation.spire.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 13 08:52:42 2026 GMT
+  hsts: false
+- host: api.maritime.spire.com
+  https: false
+domains:
+- domain: spire.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

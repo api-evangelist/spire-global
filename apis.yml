@@ -116,6 +116,8 @@ apis:
   - type: Documentation
     url: https://spire.com/space-services/rf-geolocation/
 common:
+- type: DomainSecurity
+  url: security/spire-global-domain-security.yml
 - type: Website
   url: https://spire.com/
 - type: DeveloperResources
@@ -138,6 +140,8 @@ common:
   url: https://www.linkedin.com/company/spire-global/
 - type: X
   url: https://x.com/SpireGlobal
+- url: https://spire.com/feed/
+  type: BlogRSS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
