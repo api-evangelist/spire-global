@@ -1,0 +1,13 @@
+{
+  "repo": "spire-global",
+  "feeds": [
+    {
+      "source": "https://spire.com/feed/",
+      "feed_url": "https://spire.com/feed/",
+      "saved": 0,
+      "error": "no_feed_no_posts"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 25
+}
