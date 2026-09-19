@@ -41,6 +41,18 @@ position: Producing
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spire-global.png
 tags:
+- Satellite
+- Earth Observation
+- AIS
+- Maritime
+- ADS-B
+- Aviation
+- Weather
+- RF Geolocation
+- GraphQL
+- LEMUR
+- GNSS-RO
+tags_raw:
 - Satellites
 - Earth Observation
 - AIS
@@ -116,6 +128,10 @@ apis:
   humanURL: https://developers.spire.com/
   baseURL: https://developers.spire.com/
   tags:
+  - Space Services
+  - Hosted Payloads
+  - Satellite
+  tags_raw:
   - Space Services
   - Hosted Payloads
   - Satellites
