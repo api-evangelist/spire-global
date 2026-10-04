@@ -52,6 +52,7 @@ tags:
 - GraphQL
 - LEMUR
 - GNSS-RO
+- Geospatial
 tags_raw:
 - Satellites
 - Earth Observation
@@ -64,6 +65,7 @@ tags_raw:
 - GraphQL
 - LEMUR
 - GNSS-RO
+- Geospatial
 url: https://raw.githubusercontent.com/api-evangelist/spire-global/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
